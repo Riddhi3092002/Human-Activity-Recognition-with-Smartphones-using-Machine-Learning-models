@@ -31,5 +31,5 @@ while holding a smartphone equipped with inertial sensors.
 
 ## Conclusion
 -The project demonstrates the effectiveness of machine learning models in classifying human activities using smartphone sensor data. 
--The SVM model achieved the highest accuracy, followed by Random Forest and KNN.
+The SVM model achieved the highest accuracy, followed by Random Forest and KNN.
 

@@ -13,22 +13,23 @@ while holding a smartphone equipped with inertial sensors.
   - LAYING
 
 ## Project Overview
-   ### Methodology
-   **1. Data Preprocessing**
-       - Standardization of sensor data
-       - Label encoding of activity labels
-       - Application of sliding window technique to segment the data
-    **2. Feature Extraction**
-       - Extracted features from accelerometer and gyroscope signals
-       - Created 561-feature vectors for each window
-    **3. Models Trained**
-       - Support Vector Machine (SVM)
-       - Random Forest (RF)
-       - K-Nearest Neighbors (KNN)
-    **4. Hyperparameter Tuning**
-       - Grid Search was used for hyperparameter optimization of SVM, RF, and KNN models
+
+### Methodology
+**1. Data Preprocessing**
+- Standardization of sensor data
+  - Label encoding of activity labels
+  - Application of sliding window technique to segment the data
+**2. Feature Extraction**
+  - Extracted features from accelerometer and gyroscope signals
+  - Created 561-feature vectors for each window
+**3. Models Trained**
+  - Support Vector Machine (SVM)
+  - Random Forest (RF)
+  - K-Nearest Neighbors (KNN)
+**4. Hyperparameter Tuning**
+  - Grid Search was used for hyperparameter optimization of SVM, RF, and KNN models
 
 ## Conclusion
-    The project demonstrates the effectiveness of machine learning models in classifying human activities using smartphone sensor data. 
-    The SVM model achieved the highest accuracy, followed by Random Forest and KNN.
+The project demonstrates the effectiveness of machine learning models in classifying human activities using smartphone sensor data. 
+The SVM model achieved the highest accuracy, followed by Random Forest and KNN.
 
